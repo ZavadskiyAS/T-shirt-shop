@@ -1,0 +1,8 @@
+.header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(25,28,37,0.6)
+}
