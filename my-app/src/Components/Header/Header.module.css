@@ -6,3 +6,27 @@
     width: 100%;
     background-color: rgba(25,28,37,0.6)
 }
+
+.header__btn_hamburger{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    /* transform: translate(px,2px); */
+    background: url(../../images/header/reorder.svg);
+    fill: white; 
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 32px;
+}
+
+.header__shoppingCart{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    background-image: url(../../images/header/shoppingCart.svg);
+    right: 20%;
+    top: 27%;
+
+}
