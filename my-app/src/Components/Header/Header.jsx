@@ -5,7 +5,6 @@ const Header = () => {
     return (
         <header className={css.header}>
             <div className={css.header__logo}></div>
-            <div className={css.header__basket}></div>
             <div className={css.header__shoppingCart}></div>
             <div className={css.header__btn_hamburger}></div>
              {/* <button className={css.header__btn_language_ua}></button>

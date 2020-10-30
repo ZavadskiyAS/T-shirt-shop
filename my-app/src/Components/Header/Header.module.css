@@ -7,6 +7,54 @@
     background-color: rgba(25,28,37,0.6)
 }
 
+.header__logo{
+    display: block;
+    position: absolute;
+    background-image: url(../../images/header/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px; 
+    height: 50px;
+    left: 3%;
+    top: 8%;
+}
+.header__logo::after{
+    position: relative;
+    content: 'ZAS';
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    right: -120%;
+    top: 10%;
+    
+    /* display: block; */
+    /* position: absolute; */
+    /* background-image: url(../../images/header/logo.png); */
+    /* content: url(../../images/header/logo.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* width: 45px;  */
+    /* height: 50px; */
+    /* left: 3%; */
+    /* top: 8%; */
+}
+
+.header__shoppingCart{
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 27px;
+    background-image: url(../../images/header/shoppingCart.svg);
+    color: white;
+    right: 20%;
+    top: 27%;
+
+}
+
 .header__btn_hamburger{
     display: block;
     position: absolute;
@@ -20,13 +68,3 @@
     height: 32px;
 }
 
-.header__shoppingCart{
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 27px;
-    background-image: url(../../images/header/shoppingCart.svg);
-    right: 20%;
-    top: 27%;
-
-}
