@@ -43,6 +43,10 @@ h6 {
   background: #24CCA7;
 }
 
+body {
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
 /* ---------------------------------------------------Header--------------------------------------------------------- */
 
 .header {
@@ -106,44 +110,29 @@ h6 {
 }
 
 /* -----------------------------------------------Slider------------------------------------------------------------ */
-/* .slider {
-  width: 80%;
-  margin: 0 auto;
-}
-.slider__container{
-  overflow: hidden;
-  background-color: pink;
-}
-.slider__track{
-  display: flex;
-  background-color: yellow;
-  transition: 0.2s;
-}
-.slider__track_sliderItem{
-  height: 100px;
-}
-.slider__track_sliderItem:nth-child(3n+1){
-  background-color: red;
-}
-.slider__track_sliderItem:nth-child(3n+2){
-  background-color: green;
-}
-.slider__track_sliderItem:nth-child(3n+3){
-  background-color:blue;
-}
-.slider__buttons{
-  text-align: center;
-} */
 
 .slider {
-  border: 2px solid #000;
+  border: 2px solid rgb(94, 91, 91);
   max-width: 80%;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 65px;
   overflow: hidden;
 }
 
 .slider__line {
   display: flex;
   transition: all ease 1s;
+}
+
+.slider__btnPrev{
+  /* position: absolute; */
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.slider__btnNext{
+  background-color: rgba(0,0,0,0);
+  border: none;
+  /* position: absolute; */
+  
 }
