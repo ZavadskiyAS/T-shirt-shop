@@ -106,7 +106,44 @@ h6 {
 }
 
 /* -----------------------------------------------Slider------------------------------------------------------------ */
-.slider {
+/* .slider {
   width: 80%;
   margin: 0 auto;
+}
+.slider__container{
+  overflow: hidden;
+  background-color: pink;
+}
+.slider__track{
+  display: flex;
+  background-color: yellow;
+  transition: 0.2s;
+}
+.slider__track_sliderItem{
+  height: 100px;
+}
+.slider__track_sliderItem:nth-child(3n+1){
+  background-color: red;
+}
+.slider__track_sliderItem:nth-child(3n+2){
+  background-color: green;
+}
+.slider__track_sliderItem:nth-child(3n+3){
+  background-color:blue;
+}
+.slider__buttons{
+  text-align: center;
+} */
+
+.slider {
+  border: 2px solid #000;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.slider__line {
+  display: flex;
+  transition: all ease 1s;
 }
