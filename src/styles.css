@@ -129,13 +129,18 @@ body {
 .slider__btnPrev{
   /* position: absolute; */
   background-color: rgba(0,0,0,0);
-  border: none;
-  position: absolute;
+  /* border: none; */
+  /* position: absolute; */
+  height: 30px;
+  width: 30px;
+
 }
 
 .slider__btnNext{
   background-color: rgba(0,0,0,0);
-  border: none;
-  position: absolute;
+  /* border: none; */
+  /* position: absolute; */
+  height: 30px;
+  width: 30px;
   
 }
