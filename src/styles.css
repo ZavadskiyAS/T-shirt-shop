@@ -229,7 +229,8 @@ body {
 /* -----------------------------------------------footer------------------------------------------------------------ */
 
 .footer{
-  padding: 10%;
+  padding: 5%;
+  background-color: blanchedalmond;
 }
 .footer__logo{
   display: block;
@@ -241,6 +242,7 @@ body {
   height: 50px;
   left: 3%;
   top: 8%;
+  margin-bottom: 5%;
 
   /* margin-left: 25%; */
 }
@@ -257,4 +259,35 @@ body {
   font-family: "Montserrat", sans-serif;
   right: -120%;
   top: 10%;
+}
+.footer__wrapperInfo{
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content:space-around;
+  /* align-items: stretch; */
+  margin-bottom: 5%;
+
+}
+.footer__info{
+  display: block;
+  /* margin-right: 10%; */
+}
+.footer__categories{
+  display: block;
+}
+
+
+.footer__socialIconsTitle{
+  margin-bottom: 3%;
+  text-align: center;
+}
+.footer__listSocialIcons{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.footer__list_item{
+  display: block;
+}
+.footer__github{
 }
