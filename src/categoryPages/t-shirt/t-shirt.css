@@ -62,7 +62,7 @@ body {
 .header__logo{
   display: block;
   position: absolute;
-  background-image: url(../images/header/logo.png);
+  background-image: url(../../images/header/logo.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 45px; 
@@ -90,7 +90,7 @@ body {
   position: absolute;
   width: 30px;
   height: 27px;
-  background-image: url(../images/header/shoppingCart.svg);
+  background-image: url(../../images/header/shoppingCart.svg);
   color: white;
   right: 20%;
   top: 27%;
@@ -103,7 +103,7 @@ body {
   right: 5%;
   top: 15%;
   /* transform: translate(px,2px); */
-  background: url(../images/header/reorder.svg);
+  background: url(../../images/header/reorder.svg);
   fill: white; 
   background-repeat: no-repeat;
   width: 35px;
