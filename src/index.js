@@ -1,4 +1,5 @@
 import './styles.css';
+import Router from './router';
 
 const images = document.querySelectorAll('.slider .slider__line img');
 const sliderLine = document.querySelector('.slider__line');

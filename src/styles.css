@@ -97,17 +97,31 @@ body {
 
 }
 
-.header__btn_hamburger{
+/* .header__btn_hamburger{
   display: block;
   position: absolute;
   right: 5%;
   top: 15%;
-  /* transform: translate(px,2px); */
   background: url(./images/header/reorder.svg);
   fill: white; 
   background-repeat: no-repeat;
   width: 35px;
   height: 32px;
+} */
+
+.header__btn_hamburger{
+  display: block;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  background: url(./images/header/reorder.svg);
+  fill: white; 
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  outline:none;
 }
 
 /* -----------------------------------------------Slider------------------------------------------------------------ */

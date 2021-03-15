@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="style.css" />
     <title>Webpack Starter Kit</title>
   </head>
-
+  
   <body>
+    <script src="./index.js"></script>
     <header class="header">
       <div class="header__logo"></div>
       <div class="header__shoppingCart"></div>
-      <div class="header__btn_hamburger"></div>
+      <!-- <div class="header__btn_hamburger"><button></button></div> -->
+      <button class="header__btn_hamburger"></button>
     </header>
     <div class="sliderContainer">
       <button class="slider__btnPrev" type="button"><img src="../src/images/slider/arrow/leftarrow_121320.svg" alt="arrow"></button>
@@ -32,7 +34,7 @@
     <article class="categories">
       <ul class="categories__list">
         <li class="categories__item">
-          <a class="categories__link" href="t-shirt.html">
+          <a class="categories__link" href="/t-shirt">
             <img class="categories__picture" src="../src/images/categories/1.jpg" alt="picture"> 
             <p class="categories__name">Футболки</p>
           </a>
